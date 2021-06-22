@@ -1,6 +1,7 @@
 
+
 const element = document.createElement('div');
 
-element.innerHTML = "Hello, World!";
+element.innerHTML = "Hello, Igor!";
   
 document.body.appendChild(element);
