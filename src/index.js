@@ -1,6 +1,8 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-const element = document.createElement('div');
+// Importing the Bootstrap CSS
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-element.innerHTML = "Hello, World!";
-  
-document.body.appendChild(element);
+ReactDOM.render(<App />, document.getElementById('root'));
